@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tree.css';
-import { FaExpand, FaDownload } from 'react-icons/fa';
+import { FaSearchPlus, FaDownload } from 'react-icons/fa';
 
 const Tree = () => {
     return (
@@ -33,9 +33,9 @@ const Tree = () => {
 
                     <div className="tree-actions">
                         <a href="/images/family_tree.png" target="_blank" rel="noreferrer" className="btn tree-btn">
-                            <FaExpand style={{ fontSize: '1.2rem' }} /> عرض الشجرة بالكامل
+                            <FaSearchPlus style={{ fontSize: '1.2rem' }} /> عرض الشجرة
                         </a>
-                        <a href="/images/family_tree.png" download="شجرة_عائلة_الشقحاء.png" className="btn tree-btn-outline">
+                        <a href="/images/family_tree.png" download="شجرة_عائلة_الشقحاء.png" className="btn tree-btn">
                             <FaDownload style={{ fontSize: '1.2rem' }} /> تنزيل الشجرة
                         </a>
                     </div>
