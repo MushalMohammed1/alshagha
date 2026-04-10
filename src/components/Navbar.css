@@ -148,19 +148,20 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 1rem;
-        gap: 0.5rem;
+        position: relative;
     }
 
     .navbar-brand {
-        flex: 0 0 auto;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         white-space: nowrap;
+        z-index: 2;
+        position: relative;
     }
 
     .menu-toggle {
         display: block;
-        flex: 0 0 auto;
         z-index: 1001;
+        position: relative;
     }
 
     .navbar-links {
@@ -192,17 +193,19 @@
     }
 
     .navbar-caravan {
-        flex: 1;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 160px;
         display: flex;
         justify-content: center;
-        margin: 0 0.5rem;
-        min-width: 0;
-        order: unset;
+        align-items: center;
+        z-index: 0;
     }
 
     .caravan-img {
         width: 60%;
-        max-width: 150px;
     }
 
     .caravan-img:first-child {
