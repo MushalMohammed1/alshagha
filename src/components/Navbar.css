@@ -151,6 +151,18 @@
         width: 100%;
     }
 
+    .navbar-brand,
+    .navbar-caravan {
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .navbar-brand.hidden,
+    .navbar-caravan.hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
     .navbar-brand {
         justify-self: flex-start;
         font-size: 1.1rem;

@@ -7,11 +7,11 @@ const Navbar = ({ scrolled }) => {
     return (
         <nav className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
             <div className="navbar-container container">
-                <a href="#" className="navbar-brand">
+                <a href="#" className={`navbar-brand ${menuOpen ? 'hidden' : ''}`}>
                     <span className="brand-gold">أسرة</span> الشقحاء
                 </a>
 
-                <div className="navbar-caravan">
+                <div className={`navbar-caravan ${menuOpen ? 'hidden' : ''}`}>
                     {/* Using the custom image the user will provide */}
                     <img src="/images/caravan.png" alt="قافلة" className="caravan-img" onError={(e) => e.target.style.opacity = 0} />
                     <img src="/images/caravan.png" alt="قافلة" className="caravan-img" onError={(e) => e.target.style.opacity = 0} />
