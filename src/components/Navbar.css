@@ -129,6 +129,13 @@
 }
 
 @media (max-width: 992px) {
+    .navbar-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+    }
+
     .menu-toggle {
         display: block;
         z-index: 1001;
@@ -158,7 +165,18 @@
     }
 
     .navbar-caravan {
-        display: none;
-        /* Hide caravan on very small screens to save space */
+        display: flex;
+        width: 100%;
+        max-width: 320px;
+        order: 3;
+        margin: 1.5rem auto 0;
+    }
+
+    .caravan-img:first-child {
+        transform: translateX(-30px);
+    }
+
+    .caravan-img:last-child {
+        transform: translateX(30px);
     }
 }

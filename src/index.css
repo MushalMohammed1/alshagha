@@ -114,3 +114,24 @@ ul {
   border: 1px solid rgba(170, 134, 33, 0.2);
   border-radius: 12px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .section-padding {
+    padding: 4rem 0;
+    /* Alleviate crampness */
+  }
+
+  .section-title {
+    font-size: 2rem;
+    /* Better scale on phones */
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+}
