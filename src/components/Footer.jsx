@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="footer-brand">
                         <h2><span className="brand-gold">أسرة</span> الشقحاء</h2>
                         <p>
-                            عراقة الماضي، وإشراقة المستقبل. موقع يجمع تاريخ وتراث عائلة الشقحاء الكريمة.
+                            عراقة الماضي، وإشراقة المستقبل. موقع يجمع تاريخ وتراث أسرة الشقحاء الكريمة.
                         </p>
                     </div>
 
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} موقع عائلة الشقحاء - جميع الحقوق محفوظة.</p>
+                    <p>&copy; {new Date().getFullYear()} موقع أسرة الشقحاء - جميع الحقوق محفوظة.</p>
                 </div>
             </div>
         </footer>
