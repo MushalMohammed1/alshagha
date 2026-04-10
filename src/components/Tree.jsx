@@ -28,9 +28,15 @@ const Tree = () => {
                             alt="شجرة عائلة الشقحاء"
                             className="tree-image"
                         />
-                        <div className="zoom-hint">
-                            <span>🔍 يمكن تكبير الصورة لاستعراض التفاصيل</span>
-                        </div>
+                    </div>
+
+                    <div className="tree-actions">
+                        <a href="/images/family_tree.png" target="_blank" rel="noreferrer" className="btn tree-btn">
+                            🔍 عرض الشجرة بالكامل
+                        </a>
+                        <a href="/images/family_tree.png" download="شجرة_عائلة_الشقحاء.png" className="btn tree-btn-outline">
+                            📥 تنزيل الشجرة
+                        </a>
                     </div>
                 </div>
             </div>
