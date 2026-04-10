@@ -105,24 +105,23 @@
 @media (max-width: 768px) {
     .timeline-line {
         left: auto;
-        right: 30px;
-        /* Shift line to right edge in RTL */
-        transform: none;
+        right: 20px;
+        transform: translateX(50%);
     }
 
     .timeline-icon {
         left: auto;
-        right: 0;
-        transform: translateY(-50%);
-        width: 40px;
-        height: 40px;
-        font-size: 1rem;
+        right: 20px;
+        transform: translate(50%, -50%);
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
     }
 
     .timeline-content {
-        width: calc(100% - 60px);
+        width: calc(100% - 55px);
         margin-left: 0 !important;
-        margin-right: 60px !important;
+        margin-right: 55px !important;
         padding: 1.5rem;
     }
 
